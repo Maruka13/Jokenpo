@@ -5,8 +5,12 @@ function jogar() {
     } 
 
     if (idade >= 18) {
-        escolhaJogador = 
-        escolhaComputador = 
+        escolhaJogador = prompt("Digite 1-Pedra, 2-Papel ou 3-Tesoura")
+        escolhaComputador = Math.floor(Math.random() *3) + 1;
     }
 
+
+
+    
 }
+
